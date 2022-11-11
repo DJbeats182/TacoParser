@@ -88,7 +88,7 @@ namespace LoggingKata
             }
             Console.WriteLine($"{firstTacoBell.Name} and {secondTacoBell.Name}");
             var miles = distance * 0.000621371;
-            Console.WriteLine($"Distance:{miles}");
+            Console.WriteLine($"Distance:{Math.Round(miles, 2)}");
 
         }
     }
